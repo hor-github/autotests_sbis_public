@@ -9,16 +9,6 @@ import time
 
 class TestOperationFilter:
 
-    # @pytest.fixture
-    # def setup1(self,browser):
-    #     page_business = BusinessPage(self, BusinessPage)
-    #     page_sale_report_filter = SaleReportFilterPage(self, SaleReportFilterPage)
-    #     page_business.browser
-    #     page_sale_report_filter.browser
-    #
-    # def testsss(self, setup1):
-    #
-    #     BusinessPage.go_to_sale_report()
 
     def test_operation_filter_realization(self, browser):
         page_business = BusinessPage(browser, BusinessPage)
